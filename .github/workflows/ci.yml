@@ -37,4 +37,4 @@ jobs:
 
       - name: Run load test
         run: |
-          poetry run python scripts/run_locust_headless.py
+          poetry run python scripts/run_locust.py
